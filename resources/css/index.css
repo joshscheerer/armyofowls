@@ -53,25 +53,24 @@
         padding-right: 50px;
         width: 100%;
     }
-
-    .navbar li:hover {
-        background-color: #41337B;
-    }
-
+   
     .navbar li {
         display: inline-block;
         height: 80px;
         width: 113px;
         text-align: center;
-        line-height: 80px;
-
+        line-height: 80px;  
     }
 
-    #contact {
+    .navbar li:hover {
+        background-color: #41337B;
+    }
+    
+    #navBarContact {
         float: right;
     }
     
-    /* Main */
+/* Main */
     body {
         position: relative;
         background-color: #110025;
@@ -87,7 +86,7 @@
         height: 50vw;
     }
 
-    #main_1, #main_2 {
+    #introduction, #invitation {
         height: 432px;
     }
 
@@ -98,14 +97,14 @@
         width: 416px;
     }
 
-    #main_1 p {
+    #introduction .intro {
         position: relative;
         height: 432px;
         width: 1024px;
         float: right;
     }
 
-    #main_2 p {
+    #invitation .invite {
         display: inline-block;
         position: relative;
         height: 432px;
